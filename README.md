@@ -21,3 +21,13 @@ An interactive dashboard for analyzing stock portfolio performance and risk — 
 - Streamlit
 
 ## Project Structure
+```
+portfolio-risk-dashboard/
+├── src/
+│   ├── data_loader.py     # Fetches and cleans historical price data
+│   └── metrics.py         # Calculates portfolio risk/performance metrics
+├── dashboard/
+│   └── app.py             # Streamlit dashboard (UI layer)
+├── requirements.txt
+└── README.md
+```
